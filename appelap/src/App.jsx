@@ -14,6 +14,13 @@ function App() {
   console.log([...males, ...females])
   console.log([...males, "Henrik", "JOhn", "lolo", ...females, "Pia", "Lone"])
 
+  const objv2 = {
+    ...obj,
+    phone: 12345678,
+    age: 25
+  }
+
+  console.log(objv2)
 
 
 
