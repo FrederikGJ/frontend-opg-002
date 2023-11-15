@@ -2,11 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 import yorkshireImage from './assets/yoork.png'; // Adjust the path as necessary
-import 'appelap/src/file2.js'
+import obj from './file2.js'; './file2.js'
+import { males, females } from './file2.js';
 
 
 
 function App() {
+
+  const {name, email} = obj // Destructuring
 
 
 
@@ -17,7 +20,8 @@ function App() {
       <h2> Det er lidt hacked det her ?  </h2>
       <div className='textbox'>
 
-        <p> Jeg hedder Jon </p>
+        <p> Jeg hedder {name} </p>
+        <p> Min mail er {email} </p>
 
       </div>
       <h3>Jeg hedder ikke John John  </h3>
