@@ -1,5 +1,5 @@
 const obj = {
-        name: 'noget andet end frederik',
+        name: 'frederik',
         content: 'file2 content',
         gender: "toto",
         age: 20,
