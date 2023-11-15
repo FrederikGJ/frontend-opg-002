@@ -1,11 +1,14 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import yorkshire from 'appelap/src/assets/yorkshire.jpg'
+import yorkshireImage from './assets/yoork.png'; // Adjust the path as necessary
+import 'appelap/src/file2.js'
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
+
 
   return (
     <>
@@ -19,11 +22,16 @@ function App() {
       </div>
       <h3>Jeg hedder ikke John John  </h3>
 
+      <div>
+        <img src={yorkshireImage} alt="yorkshire" />
+      </div>
+
+
+
 
     </>
   )
 }
 
-//
 
 export default App
