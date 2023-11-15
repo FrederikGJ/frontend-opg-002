@@ -2,4 +2,4 @@
 
 > ting fra onsdag og torsdag november 2023
 
-React med vite osv 
+Appelap er lavet med react og vite 
