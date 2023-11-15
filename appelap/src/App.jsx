@@ -22,6 +22,8 @@ function App() {
 
   console.log(objv2)
 
+  const names = ["Kurt", "Peter", "Jan", "Ib"]
+
 
 
   return (
@@ -32,11 +34,15 @@ function App() {
         <p> Jeg hedder {name} </p>
         <p> Min mail er {email} </p>
         <p> Min telefon er {objv2.phone} </p>
+        <p>{names.map((names) => `${names}, ` )}</p>
+        <p>Navnene på personerne:  {names.join(`, `)}</p>
 
       </div>
       <div>
         <img src={yorkshireImage} alt="yorkshire" />
       </div>
+
+      
     </>
   )
 }
