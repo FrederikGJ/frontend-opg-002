@@ -11,6 +11,10 @@ function App() {
 
   const {name, email} = obj // Destructuring
 
+  console.log([...males, ...females])
+  console.log([...males, "Henrik", "JOhn", "lolo", ...females, "Pia", "Lone"])
+
+
 
 
   return (
