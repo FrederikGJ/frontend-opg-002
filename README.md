@@ -2,4 +2,4 @@
 
 > ting fra onsdag og torsdag november 2023
 
-trololo
+React med vite osv 
