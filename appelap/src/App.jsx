@@ -16,7 +16,7 @@ function App() {
 
   const objv2 = {
     ...obj,
-    phone: 12345678,
+    phone: 22553344,
     age: 25
   }
 
@@ -27,23 +27,16 @@ function App() {
   return (
     <>
       <img src={reactLogo} className="react-logo" alt="react-logo" />
-      <h1>Vite + React</h1>
-      <h2> Det er lidt hacked det her ?  </h2>
       <div className='textbox'>
 
         <p> Jeg hedder {name} </p>
         <p> Min mail er {email} </p>
+        <p> Min telefon er {objv2.phone} </p>
 
       </div>
-      <h3>Jeg hedder ikke John John  </h3>
-
       <div>
         <img src={yorkshireImage} alt="yorkshire" />
       </div>
-
-
-
-
     </>
   )
 }
